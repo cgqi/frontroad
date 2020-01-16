@@ -1,0 +1,7 @@
+/*再写css代码之前一定要将HTML结构代码先写好*/
+h2{color: skyblue;font-size: 36px;font-family: 黑体;}
+.p1{color: #444;font-size: 20px;font-family: 微软雅黑}
+.p2{color: #00f;}
+.first{font-size: 36px;color: #0f0;}
+.sec{font-size: 36px;color: #faa;font-style: italic;}
+.p3{font-weight: bold;font-family: 黑体;color: #1345;}
