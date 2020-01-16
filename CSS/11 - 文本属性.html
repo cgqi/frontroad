@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本属性</title>
+	<style type="text/css">
+		.zhang{
+			color: rgb(255,0,0);
+			/*十进制表示颜色的方式没有浏览器兼容性的问题*/
+			text-decoration: underline;/*下划线*/
+
+		}
+
+		h2{
+			text-align: center;/*居中*/
+			text-decoration: overline;/*上划线*/
+
+		}
+		.qq{
+			text-decoration: line-through;/*删除线*/
+		}
+		u{
+			text-decoration: none;/*去掉文本修饰线*/
+		}
+		.cap{
+			text-transform: capitalize;/*讲英文字母的首字母转换为大写*/
+			}
+		.upper{
+			text-transform: uppercase;/*小写变成大写*/
+			word-spacing: 20px;
+		}
+
+		.lower{
+			text-transform: lowercase;/*大写变成小写*/
+			letter-spacing: 20px;
+		}
+		p{
+			text-indent: 2em;/*1个em表示一个汉字的位置*/
+		}
+
+		p{
+			line-height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h2>诛仙</h2>
+	<p><span class="zhang">4chan</span>是外国的综合型讨论区。4chan与高登讨论区相似，言论自由度很高，亦没有签名文件、头像等一般论坛功能。4chan在外国非常有名，更不时引起不同的重大事件（包括起底、网上欺凌等），故有“外国高登”之称。
+4chan是于2003年推出的一个仿双叶频道（2chan）风格、以ACGN相关讨论为主题的美国贴图论坛，原为分享图片和讨论日本动漫文化而建，现亦与英文互联网的次文化和运动相关，许多英文网络流行物也源由于此。由于该网站规范相对较少，故内容常引起争议，最著名的争议版面为“/b/”（Random，即随机版）。4chan的用户大部分以<u>匿名</u>身份发文，其机制与极具争议的文化也引起了美国与他国媒体的关注。
+4chan使用者遍布<span class="qq">全球</span>，但大部分来自于美国与欧洲。</p>
+	<div class="cap">cascating style sheet</div>
+	<div class="upper">Cascating Style sheet</div>
+	<div class="lower">CASCATING STYLE SHEET</div>
+	<div class="lh">英文互联网的次文化和运动相关，许多英文网络流行物也源由于此。由于该网站规范相对较少，</div>
+</body>
+</html>
