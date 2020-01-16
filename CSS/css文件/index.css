@@ -1,0 +1,9 @@
+/*
+	在index.css文件中书写css代码
+	这个文件里面只能书写css格式的代码
+	选择器{属性:值;}
+
+*/
+body{
+	background-color: #f00; /*foo --->f0000 */
+}
