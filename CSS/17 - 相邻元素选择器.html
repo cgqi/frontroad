@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>相邻元素选择器</title>
+	<style type="text/css">
+		/*相邻元素选择器
+			格式：E + F{属性:值;}*/
+
+		/*要满足以下前提才会匹配：
+		第一点：E元素与F元素必须同级
+		第二点：E元素与F元素必须要紧挨着 之间没有任何阻碍
+		第三点：E元素必须要在F元素上面
+		*/
+		.box + p{color: #f00;text-decoration: overline;} 
+
+	</style>
+</head>
+<body>
+	<p>我在上面</p>
+	<div class="box">
+		<h2>HTML</h2>
+		<div>
+			<h2>CSS</h2>
+		</div>
+		<h2>PHP</h2>
+	</div>
+	<p>我在下面</p>
+</body>
+</html>

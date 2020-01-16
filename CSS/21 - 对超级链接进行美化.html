@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表样式属性案例</title>
+	<style type="text/css">
+		/*第一步：给div设置一个边距，让div在浏览器居中显示*/
+		.box{
+			width: 500px;
+			border: 1px solid #ccc;
+			/*外边距  HTML中的表格标记属性 cellspacing
+			单元格与单元格之间的距离 在css中盒子与盒子的距离也成为外边距 margin*/
+			margin-left: auto;/*将左外边距的值设置为自动*/
+			margin-right: auto;/*将右外边距的值设置为自动*/
+		}
+		.box h2{
+			border: 1px solid skyblue;
+			height: 40px;
+			line-height: 40px;
+			color: #f00;
+			font-weight: normal;
+		}
+		.box li{
+			list-style-type: none;
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid #f00;
+		/* 	list-style-image: url(images/蜂鸟.jpg); */
+		}
+		/*对超链接美化*/
+		a:link,a:visited{
+			text-decoration: none;color: #444;}
+		a:hover{
+			color: #f00;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h2>今日新闻</h2>
+		<ul>
+			<li><a href="#">青年脱下裤子 大妈蒙了</a></li>
+			<li><a href="#">青年脱下裤子 大妈蒙了</a></li>
+			<li><a href="#">青年脱下裤子 大妈蒙了</a></li>
+			<li><a href="#">青年脱下裤子 大妈蒙了</a></li>
+			<li><a href="#">青年脱下裤子 大妈蒙了</a></li>
+		</ul>
+	</div>
+</body>
+</html>

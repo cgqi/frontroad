@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>属性选择器</title>
+	<style type="text/css">
+		/*通过属性选择器来匹配元素*/
+		/* 	第一个：[属性名] */
+	/* 	p[align]{
+		color: #f00;
+	} */
+		/*第二个：[属性名=值]*/
+	/* 	[align=center]{
+		color: #f00;
+	} */
+/* 		第三个:[属性名^=值]
+font[color^="#fD"]{
+	border: 1px solid #00f;
+} */
+		/* 第四个:[属性名$=值]
+		font[color$="05"]{
+			border: 1px solid #00f;
+		} */
+		/* 第五个:[属性名*=值] */
+		font[color*="05"]{
+			border: 1px solid #00f;
+		}
+	</style>
+</head>
+<body>
+	<p align="center">黑马程序员1</p>
+	<h2 align="center">黑马程序员2</h2>
+	<p align="right">黑马程序员3</p>
+	<font color="#f0005">颜色</font>
+	<font color="#fAA05">颜色</font>
+	<font color="#f0000">颜色</font>
+	<font color="#fCC00">颜色</font>
+	<font color="#fDD00">颜色</font>
+	<font color="#f0500">颜色</font>
+</html>

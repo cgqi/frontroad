@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>子元素选择器</title>
+	<style type="text/css">
+		/*子元素选择器
+			格式：E > F{属性:值;}*/
+
+		/*匹配.box下面的h2子元素 只匹配一级元素*/
+		.box > h2{color: #f00;text-decoration: overline;} 
+
+	</style>
+</head>
+<body>
+	<!--
+	class=box这个元素中有三个子元素
+	第一个子元素：<h2>HTML</h2>
+	第二个子元素：<div></div>
+	第三个子元素：<h2>PHP</h2>
+	第二个子元素里面还有一个子元素:<h2>CSS</h2>
+	-->
+	<div class="box">
+		<h2>HTML</h2>
+		<div>
+			<h2>CSS</h2>
+		</div>
+		<h2>PHP</h2>
+	</div>
+</body>
+</html>
