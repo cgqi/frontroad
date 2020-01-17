@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多个类名</title>
+	<style type="text/css">
+		/*先给class=div1的这个元素将其内容设置为加粗的效果
+		给class=div2的这个元素将其内容设置为红色
+		class=div3的这个元素将其内容设置为加粗并且颜色为红色*/
+		.div1{font-weight: bold;}
+		.div2{color: #f00;}
+		/* .div3{font-weight:bold;color: #f00;} */
+
+	</style>
+</head>
+<body>
+	<div class="div1">黑马程序员1</div>
+	<div class="div2">黑马程序员2</div>
+	<!--一个标签内携带多个类名-->
+	<div class="div1 div2">黑马程序员3</div>
+</body>
+</html>
