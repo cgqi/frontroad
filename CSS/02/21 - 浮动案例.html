@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>浮动案例之网站导航栏</title>
+	<style type="text/css">
+	/* 	在css代码的第一步都是清楚html标签默认的内填充与外边距 */
+	*{margin: 0;padding: 0;}
+	body{background:url(../images/头像.jpg);}
+	.nav{
+		width: 960px;
+		height: 40px;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	.nav ul{
+		/*将列表前面的项目符号去除*/
+		list-style: none;
+	}
+	.nav ul li{
+		/*把每个li标签向左浮动
+		li标签本来是块状元素 将其浮动以后就可以将每一个li排列成一行
+		*/
+		float: left;
+		/*给每一个li标签设置宽度*/
+		width: 120px;
+		/*将文本居中*/
+		text-align: center;
+		background: url(../images/三国演义.jpg);
+		height: 40px;
+		line-height: 40px;
+	}
+	a{
+		text-decoration: none;
+		color: gold;
+	}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+			<li><a href="#">网站栏目</a></li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>背景样式属性综合案例</title>
+	<style type="text/css">
+		/* 第一步给body标签设置样式 */
+		body{font-size: 12px; /* 字体大小 */
+			color: #f60; /* 给文本设置颜色 */}
+		.box{width: 400px;
+			border: 1px solid #00f;
+			margin-right: auto;/*右外边距的值为auto*/
+			margin-left:auto;/*左外边距的值为auto*/
+			}
+		.box h2{
+			height: 35px;
+			line-height: 35px;
+			color: gold;}
+		.box ul li{
+			/* 要去除li前面的项目符号 */
+			list-style: none;
+			height: 30px;
+			line-height: 30px;
+			border: 1px solid #ccc;
+			/*给每一个li标签设置一个背景图片*/
+			background-image: url(../images/头像.jpg);
+			background-repeat: no-repeat;
+			/* 设置背景图片的位置 */
+			background-position: left center;
+			padding-left: 15px; /* 左内填充：盒子里面的内容到左边边框线的距离 */}
+			/* 对超链接美化 */
+			a:link,a:visited{
+				color: #444;text-decoration:none; 
+			}
+			a:hover{
+				color: #f00;
+			}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h2>新闻列表</h2>
+		<ul>
+			<li><a href="#">考试太难家长找省长投诉 出题老师躲宝马车里哭</a></li>
+			<li><a href="#">考试太难家长找省长投诉 出题老师躲宝马车里哭</a></li>
+			<li><a href="#">考试太难家长找省长投诉 出题老师躲宝马车里哭</a></li>
+			<li><a href="#">考试太难家长找省长投诉 出题老师躲宝马车里哭</a></li>
+			<li><a href="#">考试太难家长找省长投诉 出题老师躲宝马车里哭</a></li>
+		</ul>
+	</div>
+</body>
+</html>
